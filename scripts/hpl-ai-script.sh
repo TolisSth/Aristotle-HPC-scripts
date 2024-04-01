@@ -18,7 +18,7 @@ install_openmpi() {
     sudo make install
 
     cd ..
-    rm -rf "openmpi-$version" "openmpi-$version.tar.gz"
+#    rm -rf "openmpi-$version" "openmpi-$version.tar.gz"
 }
 
 # Install OpenMPI
